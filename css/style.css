@@ -1,0 +1,44 @@
+
+@font-face {
+    src: url(../Sacramento/Sacramento-Regular.ttf);
+    font-family:"Sacramento";
+    }
+
+ body{
+     background-image: url("../kawasaki_wall.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-origin: inherit;
+     text-align: center;
+       
+    }
+
+.design{
+    text-align: center;
+    font-family:"Sacramento";
+    font-size: 100px;
+    color: rgb(219, 16, 43);
+    font-weight: 1000;
+    margin-right: 60%;
+    margin-top: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.enter{
+    text-align: center;
+    font-family: cambria;
+    background-color: rgb(53, 153, 6);
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top:10px ;
+    margin-left: 15%;
+    margin-bottom: 40%;
+    border-radius: 30px;
+    margin-right: 80%;
+
+}

@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+@font-face {
+    src: url(../Sacramento/Sacramento-Regular.ttf);
+    font-family:"Sacramento";
+    }
+
+body {
+    background-image:url("../ninja_kawasaki.jpg");
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Motorcycle{
+    font-family: "Sacramento";
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 20px;
+    margin-top: 2px;
+    color: rgb(31, 7, 167);
+   
+}
+.random-color{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    font-family: georgia;
+    float: left;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 7%;
+
+}
+.motor{
+    width: 35rem;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.specific-color{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    font-family:georgia;
+    float: left;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 32%;
+    
+}
+.Generate{
+    margin-top:8%;
+    color: black;
+    font-family: georgia;
+    width: 7rem;
+    height: 2.3rem;
+    background-color:rgb(12, 182, 55);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 60%;
+    margin-left: 14%;
+    margin-top: 40px;
+  
+}
+
+.Show{
+    background-color:rgb(12, 102, 175);
+    font-family: georgia;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2.3rem;
+    margin-top: 0rem;
+    margin-left: 18rem;
+  
+    
+}
+.Reset{
+    background-color:rgb(204, 10, 10);
+    font-family: georgia;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2.3rem;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+   
+}
+#color{
+    margin-left: 19rem;
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 16px;
+    font-family: cambria;
+    margin-top: 0.rem; 
+}
+.white-container{
+    background: linear-gradient(90deg,red,rgb(70, 175, 236),rgb(165, 153, 48),rgb(187, 13, 114));
+    height: 600px;
+    width: 700px;
+    margin-left: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow:black;
+
+}

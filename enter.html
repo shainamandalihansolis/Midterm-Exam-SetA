@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="css/colorchanger.css">
+
+</head>
+
+<body>
+    <div class = "container">
+        <div class ="white-container">
+            <h1 class= "Motorcycle">Motorbike Color Changer</h1>
+            <img class ="motor" src = "motor.png" alt ="">
+
+            <div class = "row">
+                <br>
+                <h3 class = "random-color">Generate Random Color</h3>
+                <h3 class = "specific-color">Generate Specific Color</h3>
+            </div>
+
+            <div class ="middle"> 
+                <button class = "Generate" onclick = "ChangeColor()" >Generate</button>       
+                <select name ="" id= "color">
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Grey">Grey</option>
+                    <option value="Green">Green</option>
+                    <option value="Pink">Pink</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Violet">Violet</option>
+                </select>
+                <br>
+                <div class = "down">
+                    <button  class = "Show" onclick = "Show()">Show</button>
+                    <button class = "Reset" onclick = "Reset()" >Reset</button>
+                </div>  
+            </div>
+        </div>
+            
+       <script src ="js/jquery-3.3.1.slim.min.js"></script>
+       <script src ="js/bootstrap.min.js"></script>
+       <script src ="js/bootstrap.js"></script>
+       <script src ="js/bootstrap.bundle.js"></script>
+       <script src ="js/main.js"></script>
+     
+</body>
+</html>
